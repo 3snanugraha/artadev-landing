@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://artadev.my.id/sitemap.xml

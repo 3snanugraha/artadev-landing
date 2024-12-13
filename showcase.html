@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testimonials - Artadev | Jasa Pembuatan Aplikasi Android & Web</title>
-    <meta name="description" content="Testimonial dan ulasan dari klien kami yang telah menggunakan layanan pembuatan aplikasi Android dan website. Lihat portfolio dan hasil kerja kami.">
+    <title>Showcase Shopee - Artadev Store | Source Code Aplikasi Android & Web</title>
+    <meta name="description" content="Dapatkan source code aplikasi Android dan web berkualitas di Artadev Store Shopee. Solusi cepat untuk kebutuhan pengembangan aplikasi Anda.">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.png">
     <link href="./output.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Header section copied from index.html -->
     <!-- Section Heeder -->
     <header>
         <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
@@ -97,35 +96,46 @@
                 </div>
             </div>
         </nav>
-    </header>    
-    <!-- Section Hero -->
+    </header>
 
-    <!-- Testimonials Content -->
+    <!-- Showcase Content -->
     <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Testimonials</h2>
-                <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Lihat apa kata klien kami tentang layanan pengembangan aplikasi Artadev</p>
-            </div> 
-            
-            <!-- Testimonials Slider -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Dynamic testimonial images -->
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Artadev Store</h2>
+                <p class="font-light text-gray-500 lg:mb-8 sm:text-xl dark:text-gray-400">Source Code Aplikasi Android & Web Siap Pakai</p>
+                <a href="https://shopee.com/artadevstore" target="_blank" class="inline-flex items-center py-3 px-5 font-medium text-center text-white bg-[#EE4D2D] rounded-lg hover:bg-[#f85f42] focus:ring-4 focus:ring-orange-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                    </svg>
+                    Kunjungi Toko Shopee
+                </a>
+            </div>
+
+            <!-- Showcase Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 <script>
-                    for(let i=1; i<=18; i++) {
+                    for(let i=1; i<=24; i++) {
                         document.write(`
-                            <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                                <img src="/assets/testimonials/${i}.png" alt="Testimonial ${i}" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+                            <div class="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                                <a href="https://shopee.com/artadevstore" target="_blank">
+                                    <img src="/assets/shopee/${i}.png" alt="Product ${i}" class="w-full h-auto group-hover:scale-110 transition-transform duration-500">
+                                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <p class="text-white text-sm font-medium">Lihat di Shopee</p>
+                                    </div>
+                                </a>
                             </div>
                         `);
                     }
                 </script>
             </div>
 
-            <!-- CTA Section -->
+            <!-- Bottom CTA -->
             <div class="text-center mt-16">
-                <a href="https://wa.me/62895339046899?text=Halo%2C%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20aplikasi" target="_blank" class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">
-                    Mulai Konsultasi Gratis
+                <p class="text-gray-500 dark:text-gray-400 mb-4">Temukan lebih banyak source code aplikasi di toko kami</p>
+                <a href="https://shopee.com/artadevstore" target="_blank" class="inline-flex items-center py-3 px-5 font-medium text-center text-white bg-[#EE4D2D] rounded-lg hover:bg-[#f85f42] focus:ring-4 focus:ring-orange-300">
+                    Lihat Semua Produk
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
         </div>
